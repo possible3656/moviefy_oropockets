@@ -10,14 +10,24 @@ dependencies:
   get: 4.6.5
   flutter: 
     sdk: flutter
+  flutter_native_splash: ^2.2.11
 
 dev_dependencies: 
   flutter_lints: ^2.0.0
   flutter_test: 
     sdk: flutter
 
-flutter: 
+flutter_native_splash:
+  color: '#007CFF'
+  image: 'assets/images/logo.png'
+  android_12:
+   color: '#007CFF'
+   image: 'assets/images/logo.png'
+
+flutter:
   uses-material-design: true
+
+
 
   assets:
     - assets/images/
