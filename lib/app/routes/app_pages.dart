@@ -1,9 +1,9 @@
 import 'package:get/get.dart';
 
-import 'package:moviefy_oropockets/app/modules/MovieDetailsPage/bindings/movie_details_page_binding.dart';
-import 'package:moviefy_oropockets/app/modules/MovieDetailsPage/views/movie_details_page_view.dart';
-import 'package:moviefy_oropockets/app/modules/TopMoviesPage/bindings/top_movies_page_binding.dart';
-import 'package:moviefy_oropockets/app/modules/TopMoviesPage/views/top_movies_page_view.dart';
+import 'package:moviefy_oropockets/app/modules/movieDetailsPage/bindings/movie_details_page_binding.dart';
+import 'package:moviefy_oropockets/app/modules/movieDetailsPage/views/movie_details_page_view.dart';
+import 'package:moviefy_oropockets/app/modules/topMoviesPage/bindings/top_movies_page_binding.dart';
+import 'package:moviefy_oropockets/app/modules/topMoviesPage/views/top_movies_page_view.dart';
 
 
 part 'app_routes.dart';

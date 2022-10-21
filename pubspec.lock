@@ -71,6 +71,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.5"
+  dio:
+    dependency: "direct main"
+    description:
+      name: dio
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "4.0.6"
   fake_async:
     dependency: transitive
     description:
@@ -83,6 +90,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_hooks:
+    dependency: transitive
+    description:
+      name: flutter_hooks
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.18.5+1"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -121,6 +135,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.15.1"
+  http_parser:
+    dependency: transitive
+    description:
+      name: http_parser
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "4.0.2"
   image:
     dependency: transitive
     description:
@@ -177,6 +198,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "5.0.0"
+  rate_in_stars:
+    dependency: "direct main"
+    description:
+      name: rate_in_stars
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.3"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -261,4 +289,4 @@ packages:
     version: "3.1.1"
 sdks:
   dart: ">=2.19.0-212.0.dev <3.0.0"
-  flutter: ">=2.5.0"
+  flutter: ">=3.0.0"
