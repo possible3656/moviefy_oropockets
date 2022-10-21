@@ -4,9 +4,11 @@ part of 'app_pages.dart';
 abstract class Routes {
   Routes._();
 
-  static const HOME = _Paths.HOME;
+  static const TOP_MOVIES_PAGE = _Paths.TOP_MOVIES_PAGE;
+  static const MOVIE_DETAILS_PAGE = _Paths.MOVIE_DETAILS_PAGE;
 }
 
 abstract class _Paths {
-  static const HOME = '/home';
+  static const TOP_MOVIES_PAGE = '/top-movies-page';
+  static const MOVIE_DETAILS_PAGE = '/movie-details-page';
 }

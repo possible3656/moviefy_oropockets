@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 
-class HomeController extends GetxController {
-  //TODO: Implement HomeController
+class TopMoviesPageController extends GetxController {
+  //TODO: Implement TopMoviesPageController
 
   final count = 0.obs;
   @override

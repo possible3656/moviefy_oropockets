@@ -2,19 +2,19 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 
-import '../controllers/home_controller.dart';
+import '../controllers/top_movies_page_controller.dart';
 
-class HomeView extends GetView<HomeController> {
+class TopMoviesPageView extends GetView<TopMoviesPageController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('HomeView'),
+        title: Text('TopMoviesPageView'),
         centerTitle: true,
       ),
       body: Center(
         child: Text(
-          'HomeView is working',
+          'TopMoviesPageView is working',
           style: TextStyle(fontSize: 20),
         ),
       ),
