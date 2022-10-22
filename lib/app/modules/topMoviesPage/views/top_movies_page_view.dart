@@ -37,7 +37,8 @@ class TopMoviesPageView extends GetView<TopMoviesPageController> {
                               controller.moviesDetailsModel.results.length,
                           itemBuilder: (context, index) => MovieListItem(
                               index: index, controller.moviesDetailsModel)),
-                    )
+                    ),
+                    SizedBox(height: 40,),
                   ],
                 ),
               )));
