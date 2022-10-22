@@ -21,10 +21,13 @@ class TopMoviesPageView extends GetView<TopMoviesPageController> {
                 child: Column(
                   children: [
                     /**
-               * ? Appbar
-               */
+                    * ? Appbar
+                     * */
 
                     const TopMoviesAppBar(),
+                    /**
+                     * ? movies list view
+                     */
                     Padding(
                       padding: const EdgeInsets.symmetric(vertical: 20),
                       child: ListView.builder(

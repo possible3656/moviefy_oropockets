@@ -51,4 +51,21 @@ class TopMoviesPageController extends GetxController {
       Constants.MOVIE_DETAILS_MODEL: moviesDetailsModel
     });
   }
+
+  returnGenre(int index) {
+    String genreString = '';
+    List genreList = moviesDetailsModel.results[index].genreIds;
+    for (int i = 0; i < genreList.length; i++) {
+      debugPrint(Constants.genreMap[genreList.elementAt(i).toString()]);
+      genreString +=
+          '${Constants.genreMap[genreList.elementAt(i).toString()] ?? ''}';
+      if (i < genreList.length - 1) {
+        genreString +=
+            Constants.genreMap[genreList.elementAt(i).toString()] == null
+                ? ''
+                : ' / ';
+      }
+    }
+    return genreString;
+  }
 }
